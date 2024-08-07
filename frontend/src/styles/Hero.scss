@@ -1,4 +1,8 @@
 /* src/styles/Hero.scss */
+.wrapper {
+  padding-bottom: 50px;
+}
+
 .image-container {
   display: flex;
   justify-content: center; 
@@ -36,5 +40,35 @@
       font-family: 'system-ui', sans-serif;
       max-width: 1000px;
     }
-  }  
+  }
+}
+
+.info-box {
+  background-color: #ccffcc;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative; 
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  font-size: 1.1em;
+}
+
+.info-box p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.info-box ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.electric-icon {
+  position: absolute; 
+  bottom: 10px;
+  right: 10px; 
+  width: 7cm; 
+  height: auto;
 }
