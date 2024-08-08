@@ -1,0 +1,18 @@
+.reasonCardsContainer {
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto; // Centre le conteneur
+  
+    .reasonCard {
+      flex: 1 1 45%;
+      margin: 10px;
+      max-width: 500px;
+      padding: 20px;
+      border-radius: 8px;
+      height: 250px;
+      overflow: auto;
+    }
+  }
