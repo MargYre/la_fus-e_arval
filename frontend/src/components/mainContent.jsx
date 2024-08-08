@@ -4,6 +4,7 @@ import '../styles/mainContent.scss'; // Assurez-vous de créer ce fichier CSS
 import Hero from '../components/hero'
 import AdditionalServices from '../components/additionalServices'
 import PackageOption from '../components/packageOption'
+import carIcon from '../assets/picto-car.png';
 
 const MainContent = () => {
   const essentials = [
@@ -23,6 +24,7 @@ const MainContent = () => {
         <PackageOption title="Arval Switch Essentiel" details={essentials} backgroundColor="#ffc415"/>
         <PackageOption title="Arval Switch Essentiel plus" details={essentialsPlus} backgroundColor="#dfff82"/>
       </div>
+      <img src={carIcon} alt="Car Icon" className="car-icon" />
       <h1>4 bonnes raisons d’opter pour Arval Switch</h1>
     </main>
   );

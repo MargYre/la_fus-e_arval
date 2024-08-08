@@ -2,7 +2,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/packageOption.scss'; // Assurez-vous que le chemin est correct
-import carIcon from '../assets/picto-car.png';
 
 const PackageOption = ({ title, details, backgroundColor }) => {
   return (
