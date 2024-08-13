@@ -1,11 +1,16 @@
 // src/styles/mainContent.scss
+
+.main-content {
+  margin-bottom: 120px;
+}
+
 h1 {
     display: flex;
     justify-content: center;
     width: 100%;
     margin: 0;
     font-family: 'monospace', sans-serif;
-    color: green;
+    //color: green;
     font-size: 2em;
     font-weight: normal;
     margin-top: 30px;
