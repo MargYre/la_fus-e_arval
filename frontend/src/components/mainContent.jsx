@@ -26,7 +26,7 @@ const MainContent = () => {
         <PackageOption title="Arval Switch Essentiel plus" details={essentialsPlus} backgroundColor="#dfff82"/>
       </div>
       <img src={carIcon} alt="Car Icon" className="car-icon" />
-      <h1>4 bonnes raisons d’opter pour Arval Switch</h1>
+      <h1 className="centered-title">4 bonnes raisons d’opter pour Arval Switch</h1>
       <div className="reasonCardsContainer">
         <ReasonCard 
           title="Accélérez la transition électrique de votre flotte" 

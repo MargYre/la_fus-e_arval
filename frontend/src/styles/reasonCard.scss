@@ -1,14 +1,15 @@
 .reasonCardsContainer {
-    display: flex;
-    flex-wrap: inherit;
-    justify-content: center;
-    align-items: flex-start;
-    max-width: 1000px;
-    margin: 0 auto; // Centre le conteneur
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
   
     .reasonCard {
       flex: 1 1 45%;
-      margin: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
       max-width: 500px;
       padding: 20px;
       border-radius: 8px;
