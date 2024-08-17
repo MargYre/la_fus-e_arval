@@ -18,7 +18,7 @@ const PackageOption = ({ title, details, backgroundColor }) => {
 
 PackageOption.propTypes = {
   title: PropTypes.string.isRequired,
-  details: PropTypes.arrayOf(PropTypes.string).isRequired,
+  details: PropTypes.arrayOf(PropTypes.node).isRequired,
   backgroundColor: PropTypes.string,
 };
 
