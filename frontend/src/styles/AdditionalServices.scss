@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: stretch;
   margin: 20px auto;
-  width: 80%;
   max-width: 1000px;
 
   .textimage-container {
@@ -39,17 +38,17 @@
       flex-direction: column;
       flex: 1;
       background-color: lightgrey;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
       height: 450px;
       box-sizing: border-box;
       border-top-right-radius: 50px;
+      
+      .second-text-container {
+        padding: 40px;
+      }
 
       p {
         margin: 0;
         padding: 0;
-        text-align: center;
       }
 
       .more-icon {
@@ -61,5 +60,16 @@
         bottom: -11vw;
       }
     }
+  }
+}
+
+/* Media Query*/
+@media (max-width: 768px) {
+  .more-icon {
+    display: none;
+  }
+
+  .textimage-container {
+    flex-direction: column;
   }
 }

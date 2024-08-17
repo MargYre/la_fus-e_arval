@@ -14,6 +14,7 @@ const AdditionalServices = () => {
               </div>
             </div>
             <div className="text-container">
+              <div className="second-text-container">
                 <h2>Besoin de services additionnels ?</h2>
                 <h3>Arval Switch reste souple</h3>
                 <p>Besoin d’équipements divers (siège bébé, rehausseur, coffre de toit, GPS...) ; d’assurances
@@ -22,6 +23,7 @@ const AdditionalServices = () => {
                     le loueur courte durée, conformément aux conditions générales de location du contrat courte
                     durée qu’il aura signées en agence.</p>
                 <img src={pictoMoreGreen} alt="More Icon" className="more-icon" />
+              </div>
             </div>
           </div>
         </div>

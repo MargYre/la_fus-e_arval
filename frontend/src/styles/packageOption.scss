@@ -5,8 +5,9 @@
   flex: 1 1 auto;
   max-width: 500px;
   margin-bottom: 20px;
-  box-sizing: border-box; // Inclut le padding dans la largeur totale
+  box-sizing: border-box; 
   overflow-wrap: break-word;
+  font-family: sans-serif;
 
   h3 {
     color: #2c3e50;
