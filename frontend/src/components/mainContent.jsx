@@ -28,10 +28,10 @@ const MainContent = () => {
       <h1>Comment souscrire le forfait Arval switch ?</h1>
       <h2>2 formules sont proposées :</h2>
       <div className="allOptions">
+        <img src={carIcon} alt="Car Icon" className="car-icon" />
         <PackageOption title="Arval Switch Essentiel" details={essentials} backgroundColor="#ffc415" />
         <PackageOption title="Arval Switch Essentiel Plus" details={essentialsPlus} backgroundColor="#dfff82" />
       </div>
-      <img src={carIcon} alt="Car Icon" className="car-icon" />
       <h1 className="centered-title">4 bonnes raisons d’opter pour Arval Switch</h1>
       <div className="reasonCardsContainer">
         <ReasonCard 

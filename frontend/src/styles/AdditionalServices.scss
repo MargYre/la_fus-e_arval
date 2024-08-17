@@ -44,26 +44,35 @@
       
       .second-text-container {
         padding: 40px;
+        font-family: 'barlow', sans-serif;
       }
 
       p {
         margin: 0;
         padding: 0;
+        font-family: 'barlow', sans-serif;
       }
 
       .more-icon {
         width: 100px;
         height: auto;
         margin-left: 10px;
-        position: absolute;
-        right: 48vw;
-        bottom: -11vw;
+        position: relative;
+        right: 23%;
+        bottom: 94%;
       }
     }
   }
 }
 
 /* Media Query*/
+@media (max-width: 1024px) and (min-width: 769px) {
+  .electric-icon {
+    width: 6cm;
+    height: auto;
+  }
+}
+
 @media (max-width: 768px) {
   .more-icon {
     display: none;
