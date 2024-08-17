@@ -4,6 +4,7 @@
   grid-gap: 20px;
   max-width: 1000px;
   margin: 0 auto;
+  grid-auto-rows: min-content;
   
     .reasonCard {
       flex: 1 1 45%;
