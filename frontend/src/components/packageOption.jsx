@@ -22,8 +22,4 @@ PackageOption.propTypes = {
   backgroundColor: PropTypes.string,
 };
 
-PackageOption.defaultProps = {
-  backgroundColor: '#ffffff',
-};
-
 export default PackageOption;
