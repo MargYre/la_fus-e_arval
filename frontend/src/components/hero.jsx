@@ -19,14 +19,14 @@ const Hero = () => {
         </div>
       </div>
       <div className="info-box">
-        <p>1. Sur simple <span class="highlight">appel téléphonique</span>, ils demandent la mise à disposition d’un véhicule
+        <p>1. Sur simple <span className="highlight">appel téléphonique</span>, ils demandent la mise à disposition d’un véhicule
               thermique ou hybride, en précisant la catégorie souhaitée.
         </p>
             <p>
-              2. Le véhicule est <span class="highlight">réservé rapidement</span>, dans l’une des 1 400 agences du réseau
+              2. Le véhicule est <span className="highlight">réservé rapidement</span>, dans l’une des 1 400 agences du réseau
               partenaire d’Arval, réparties dans toute la France métropolitaine (dont Corse).
             </p>
-          3. Un <span class="highlight">SMS et/ou un mail de confirmation</span> leur est envoyé, où sont indiqués :
+          3. Un <span className="highlight">SMS et/ou un mail de confirmation</span> leur est envoyé, où sont indiqués :
           <p>
             <ul>
               <li>- la période de réservation</li>

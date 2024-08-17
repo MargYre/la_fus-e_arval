@@ -37,23 +37,23 @@
     flex-wrap: wrap;
     max-width: 1000px;
     margin: 0 auto;
-    position: relative; /* Assure que .car-icon est positionné par rapport à .allOptions */
+    position: relative;
   }
   
   .car-icon {
     width: 200px;
     height: auto;
-    position: absolute; /* Conserve la position absolue pour un contrôle précis */
-    top: -8%; /* Modifie cette valeur pour ajuster la position verticale */
-    left: 75%; /* Modifie cette valeur pour ajuster la position horizontale */
-    margin-top: 0; /* Supprimez les marges superflues si vous utilisez top/left */
-    margin-bottom: 0; /* Supprimez les marges superflues si vous utilisez top/left */
+    position: absolute; 
+    top: -8%; 
+    left: 75%; 
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
 /* Media Query pour cacher l'icône sur les petits écrans */
 @media (max-width: 768px) {
   .car-icon {
-    display: none; /* Cache l'icône sur les écrans inférieurs à 768px */
+    display: none;
   }
 }
