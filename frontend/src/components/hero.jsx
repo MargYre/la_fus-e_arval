@@ -27,13 +27,11 @@ const Hero = () => {
               partenaire d’Arval, réparties dans toute la France métropolitaine (dont Corse).
             </p>
           3. Un <span className="highlight">SMS et/ou un mail de confirmation</span> leur est envoyé, où sont indiqués :
-          <p>
             <ul>
               <li>- la période de réservation</li>
               <li>- les coordonnées de l’agence où retirer le véhicule</li>
               <li>- le solde restant sur leur réserve annuelle de 20 jours</li>
             </ul>
-          </p>
           <img src={electricIcon} alt="Electric Icon" className="electric-icon" />
         </div>
     </div>
